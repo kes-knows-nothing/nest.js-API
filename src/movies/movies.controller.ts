@@ -10,7 +10,7 @@ import {
   Patch,
   Query,
 } from '@nestjs/common';
-import { CreateMovieDTO } from '../dto/create-movie.dto';
+import { CreateMovieDTO } from './dto/create-movie.dto';
 
 @Controller('movies')
 export class MoviesController {
